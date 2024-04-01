@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-Diamond_price = pickle.load(open('diamond_price_model.pkl', 'rb'))
+Diamond_price = pickle.load(open('diamond_price_model2.pkl', 'rb'))
 
 # Page title
 st.title('Diamond Price Prediction using ML')
